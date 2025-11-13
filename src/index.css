@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #FFFCF8;
+  color: #1f2937;
+}
+
+.cta {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #436850;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-color: #304D43;
+}
+
+.cta-secondary {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: white;
+  color: #436850;
+  border: 1px solid #436850;
+  cursor: pointer;
+}

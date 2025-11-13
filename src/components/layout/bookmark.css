@@ -1,0 +1,29 @@
+.bookmark {
+    padding: 16px;
+    background: #f8f5ff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.bookmark-title {
+    font-size: 20px;
+    color: #6a0dad;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.bookmark-container {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+@media (min-width: 750px) {
+    .bookmark {
+        padding: 16px 64px;
+    }
+
+    .bookmark-title {
+        font-size: 30px;
+    }
+}
