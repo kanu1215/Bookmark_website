@@ -4,7 +4,7 @@
     align-items: center;
     padding: 16px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: linear-gradient(90deg,#6a0dad,#d059ff);
+  background: rgba(0, 0, 0, 0.5);
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     height: 90px;
@@ -20,12 +20,12 @@
     padding: 10px 40px;
     border-radius: 8px;
     background: white;
-    color: rgb(181, 32, 240);
+    color: blue;
     font-weight: 600;
     cursor: pointer;
 }
 .cta:hover {
-    background: #8e45bb;
+    background: rgb(132, 132, 241);
 }
 @media (min-width: 750px) {
     .header {
@@ -35,4 +35,22 @@
     .logo {
         font-size: 30px;
     }
+}
+.header h1 {
+  color: #fff;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: #00aaff;
 }

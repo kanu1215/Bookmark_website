@@ -1,13 +1,12 @@
 .bookmark {
     padding: 16px;
-    background: #f8f5ff;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
 }
 
 .bookmark-title {
     font-size: 20px;
-    color: #6a0dad;
-    margin-bottom: 20px;
+    color: blue;
+    margin-bottom: 24px;
     font-weight: bold;
 }
 

@@ -5,8 +5,18 @@
 }
 
 body {
-  background-color: #FFFCF8;
-  color: #1f2937;
+ margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/images/Background.png');
+  background-size: contain;          
+  background-position: center;    
+  background-repeat: no-repeat;   
+  background-attachment: fixed;    
+  color: #fff;
+  min-height: 100vh;
+    background-color: #000;         /* fills empty space behind image */
+
+
 }
 
 .cta {
@@ -29,4 +39,12 @@ body {
   color: #436850;
   border: 1px solid #436850;
   cursor: pointer;
+}
+.app-container {
+  padding: 40px;
+  text-align: center;
+  backdrop-filter: blur(5px);
+    max-width: 800px;
+  margin: 0 auto;
+
 }
